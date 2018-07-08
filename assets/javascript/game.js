@@ -32,7 +32,12 @@ document.onkeyup = function(event) {
     if (guessCounter === 0) {
         alert ("You lose. Sorry buddy");
         lossCounter ++;
+        guessCounter = 10;
+        guessTracker = " ";
+        
     }
+
+  
     
 
 
